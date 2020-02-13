@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+    id 'scala'
+}
+
+group 'org.teri'
+version '1.0-SNAPSHOT'
+
+// Apply the scala plugin to add support for Scala
+apply plugin: 'scala'
+
+repositories {
+    mavenCentral()
+    maven { url 'https://repo1.maven.org/maven2' }
+}
+
+ext {
+    scalaMajorVersion = '2.12'
+    scalaVersion = "${scalaMajorVersion}.10"
+}
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.5.9'
+    compile  "org.scala-lang:scala-library:${scalaVersion}"
+
+    testCompile 'junit:junit:4.12'
+    testCompile "org.scalatest:scalatest_${scalaMajorVersion}:3.0.8"
+}
+
