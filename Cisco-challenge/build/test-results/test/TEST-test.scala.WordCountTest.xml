@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.scala.WordCountTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-13T12:59:24" hostname="tereza-IdeaPad-L340-15IRH-Gaming" time="0.019">
+<testsuite name="test.scala.WordCountTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-13T14:07:38" hostname="tereza-IdeaPad-L340-15IRH-Gaming" time="0.05">
   <properties/>
-  <testcase name="First test should return true" classname="test.scala.WordCountTest" time="0.019"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="should read file correctly" classname="test.scala.WordCountTest" time="0.03"/>
+  <testcase name="should count correctly" classname="test.scala.WordCountTest" time="0.019"/>
+  <system-out><![CDATA[Map(cab -> [Ljava.lang.String;@3375e0da, cba -> [Ljava.lang.String;@2ed010ce, abc -> [Ljava.lang.String;@56698372, bca -> [Ljava.lang.String;@12fe314a)
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
