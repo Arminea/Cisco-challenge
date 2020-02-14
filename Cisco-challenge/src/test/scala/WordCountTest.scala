@@ -1,6 +1,3 @@
-package test.scala
-
-import main.scala.WordCount
 import org.junit.runner.RunWith
 import org.scalatest.{FlatSpec, Matchers}
 import org.scalatestplus.junit.JUnitRunner

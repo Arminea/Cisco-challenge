@@ -1,4 +1,3 @@
-package main.scala
 
 object WordCountRunner extends App {
 
