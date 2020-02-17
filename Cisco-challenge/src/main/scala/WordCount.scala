@@ -3,7 +3,7 @@ import scala.io.Source
 object WordCount {
 
   /**
-   * Function read a file from input path.
+   * Function reads a file from input path.
    *
    * @param filepath
    * @return file content as one line string
